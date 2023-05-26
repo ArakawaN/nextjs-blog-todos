@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import Link from "next/link";
 import { getAllTasksData } from "../lib/tasks";
-import Task from "../components/task";
+import Task from "../components/Task";
 import useSWR from "swr";
 import { useEffect } from "react";
 import StateContextProvider from "../context/StateContext";
